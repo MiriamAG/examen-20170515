@@ -75,7 +75,7 @@ public class CorredorBD {
                     corredor.setId(rs.getInt(1));
                 }
             }
-            
+
             st.close();
 
         } catch (SQLException ex) {
